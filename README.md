@@ -101,7 +101,7 @@ Add this line to your shell startup file. (`.bashrc`, `.zshrc` or etc.)
 
 ```sh
 # Import colorscheme from 'wal'
-(wal -r &)
+(cat "${HOME}/.cache/wal/sequences" &)
 ```
 
 Here's how the extra syntax above works:
